@@ -55,10 +55,6 @@ Deployment
 
 Project Structure
 
-Project Structure
-
-Project Structure
-
 HotelRoomBookingSystem
 
 1. frontend/ – React, HTML, CSS, JavaScript
