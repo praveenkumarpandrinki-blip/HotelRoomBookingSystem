@@ -52,6 +52,7 @@ Deployment
 - GitHub
 - Render
 
+
 Project Structure
 
 Project Structure
@@ -77,14 +78,6 @@ HotelRoomBookingSystem
 |   |-- routes
 |   |-- middleware
 |   |-- utils
-|   |-- server.js
-|   |-- package.json
-|
-|-- .gitignore
-|-- README.md
-|-- package.json
-Note: The exact folder and file names may vary slightly depending on the current project structure.
-
 Installation and Setup
 
 1. Clone the Repository
