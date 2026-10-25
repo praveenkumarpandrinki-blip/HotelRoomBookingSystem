@@ -98,7 +98,77 @@ HotelRoomBookingSystem/
 ├── package-lock.json
 ├── vite.config.js
 └── README.md
+📁 Project Structure
 
+HotelRoomBookingSystem/
+|
+|-- backend/
+|   |-- config/
+|   |   |-- db.js
+|   |
+|   |-- controllers/
+|   |   |-- authController.js
+|   |   |-- bookController.js
+|   |   |-- contactController.js
+|   |   |-- roomController.js
+|   |
+|   |-- middleware/
+|   |   |-- adminMiddleware.js
+|   |   |-- authMiddleware.js
+|   |   |-- errorMiddleware.js
+|   |
+|   |-- models/
+|   |   |-- booking.js
+|   |   |-- contact.js
+|   |   |-- room.js
+|   |   |-- user.js
+|   |
+|   |-- routes/
+|   |   |-- authRoutes.js
+|   |   |-- bookingRoutes.js
+|   |   |-- contactRoutes.js
+|   |   |-- roomRoutes.js
+|   |
+|   |-- utils/
+|   |   |-- generateToken.js
+|   |   |-- seedData.js
+|   |
+|   |-- .env.example
+|   |-- package.json
+|   |-- server.js
+|
+|-- public/
+|   |-- favicon.svg
+|
+|-- src/
+|   |-- components/
+|   |
+|   |-- context/
+|   |   |-- authContext.js
+|   |   |-- toastContext.js
+|   |
+|   |-- data/
+|   |   |-- rooms.js
+|   |
+|   |-- pages/
+|   |
+|   |-- services/
+|   |   |-- API.js
+|   |
+|   |-- utils/
+|   |   |-- bookingHelper.js
+|   |   |-- storage.js
+|   |
+|   |-- App.jsx
+|   |-- index.css
+|   |-- main.jsx
+|
+|-- .gitignore
+|-- index.html
+|-- package.json
+|-- package-lock.json
+|-- write-config.js
+|-- README.md
 The tree above describes the expected project layout. Some files may differ depending on your current implementation.
 
 4. Prerequisites
