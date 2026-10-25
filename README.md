@@ -54,23 +54,35 @@ Deployment
 
 Project Structure
 
-HotelRoomBookingSystem/
-├── backend/
-│   ├── models/
-│   ├── routes/
-│   ├── controllers/
-│   ├── utils/
-│   └── server.js
-├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── App.js
-│   ├── API.js
-│   └── index.css
-├── public/
-├── package.json
-└── README.md
+Project Structure
 
+HotelRoomBookingSystem
+|
+|-- frontend
+|   |-- public
+|   |-- src
+|   |   |-- assets
+|   |   |-- components
+|   |   |-- pages
+|   |   |-- services
+|   |   |-- App.jsx
+|   |   |-- main.jsx
+|   |   |-- index.css
+|   |-- package.json
+|
+|-- backend
+|   |-- config
+|   |-- models
+|   |-- controllers
+|   |-- routes
+|   |-- middleware
+|   |-- utils
+|   |-- server.js
+|   |-- package.json
+|
+|-- .gitignore
+|-- README.md
+|-- package.json
 Note: The exact folder and file names may vary slightly depending on the current project structure.
 
 Installation and Setup
