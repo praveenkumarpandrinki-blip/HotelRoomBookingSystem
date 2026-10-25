@@ -50,9 +50,7 @@ export default function RoomFilters({
             <option value="">All Categories</option>
             <option value="Standard">Standard</option>
             <option value="Deluxe">Deluxe</option>
-            <option value="Executive Suite">Executive Suite</option>
             <option value="Family Room">Family Room</option>
-            <option value="Luxury Suite">Luxury Suite</option>
           </select>
         </div>
 

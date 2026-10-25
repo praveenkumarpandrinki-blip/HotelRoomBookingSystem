@@ -62,9 +62,7 @@ export default function SearchForm({
             <option value="">All Categories</option>
             <option value="Standard">Standard Rooms</option>
             <option value="Deluxe">Deluxe Rooms</option>
-            <option value="Executive Suite">Executive Suites</option>
-            <option value="Family Room">Family Suites</option>
-            <option value="Luxury Suite">Luxury Villas</option>
+            <option value="Family Room">Family Rooms</option>
           </select>
         </div>
 

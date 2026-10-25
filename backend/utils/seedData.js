@@ -72,8 +72,8 @@ export const INITIAL_ROOMS = [
   },
   {
     roomId: "room-103",
-    name: "Executive Ocean View King",
-    type: "Executive Suite",
+    name: "Deluxe Ocean View King",
+    type: "Deluxe",
     price: 7500,
     rating: 4.9,
     reviewsCount: 196,
@@ -134,8 +134,8 @@ export const INITIAL_ROOMS = [
   },
   {
     roomId: "room-105",
-    name: "Royal Heritage Suite",
-    type: "Luxury Suite",
+    name: "Deluxe Heritage Room",
+    type: "Deluxe",
     price: 14500,
     rating: 4.95,
     reviewsCount: 154,
@@ -165,8 +165,8 @@ export const INITIAL_ROOMS = [
   },
   {
     roomId: "room-106",
-    name: "Aurelia Presidential Villa",
-    type: "Luxury Suite",
+    name: "Family Presidential Villa",
+    type: "Family Room",
     price: 24000,
     rating: 5.0,
     reviewsCount: 78,
@@ -196,8 +196,8 @@ export const INITIAL_ROOMS = [
   },
   {
     roomId: "room-107",
-    name: "Panorama Skyline Suite",
-    type: "Executive Suite",
+    name: "Standard Skyline Room",
+    type: "Standard",
     price: 11500,
     rating: 4.88,
     reviewsCount: 92,
