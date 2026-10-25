@@ -57,27 +57,34 @@ Project Structure
 
 Project Structure
 
+Project Structure
+
 HotelRoomBookingSystem
-|
-|-- frontend
-|   |-- public
-|   |-- src
-|   |   |-- assets
-|   |   |-- components
-|   |   |-- pages
-|   |   |-- services
-|   |   |-- App.jsx
-|   |   |-- main.jsx
-|   |   |-- index.css
-|   |-- package.json
-|
-|-- backend
-|   |-- config
-|   |-- models
-|   |-- controllers
-|   |-- routes
-|   |-- middleware
-|   |-- utils
+
+1. frontend/ – React, HTML, CSS, JavaScript
+   
+   - components/
+   - pages/
+   - App.jsx
+   - index.css
+   - package.json
+
+2. backend/ – Node.js and Express.js
+   
+   - models/
+   - routes/
+   - controllers/
+   - config/
+   - server.js
+   - package.json
+
+3. Root Files
+   
+   - .gitignore
+   - package.json
+   - README.md
+
+Database: MongoDB
 Installation and Setup
 
 1. Clone the Repository
